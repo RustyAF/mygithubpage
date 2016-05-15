@@ -5,6 +5,12 @@
 		publish_key: 'pub-c-21d3cb4c-7809-43f5-938e-2c6139510cc9',
 		subscribe_key: 'sub-c-108945de-0ffa-11e6-a5b5-0619f8945a4f'
 	};
+	
+	var lights = {
+		channel: 'lights',
+		publish_key: 'pub-c-21d3cb4c-7809-43f5-938e-2c6139510cc9',
+		subscribe_key: 'sub-c-108945de-0ffa-11e6-a5b5-0619f8945a4f'
+	}
 
 	var pubnub = PUBNUB(settings);
 
@@ -42,7 +48,7 @@
 
 	function publishUpdate(data) {
 		pubnub.publish({
-			channel: settings.channel, 
+			channel: lights.channel, 
 			message: data
 		});
 	}
