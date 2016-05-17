@@ -24,6 +24,7 @@ html {
 body {
 	padding: 1em 2em;
 	margin: 0;
+	width: 100%;
 	font-family: "Helvetica Neue", "Roboto Light", "Segoe UI Web Light", "Segoe UI Light", "Segoe UI Web Regular", "Segoe UI", Helvetica, Arial, sans-serif; 
 	color: #fff;
 	background: #1c2831 url(../media/bg.png) 0 0 no-repeat;
