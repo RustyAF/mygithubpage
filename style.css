@@ -1,9 +1,4 @@
-/*!
- *  Font Awesome 4.2.0 by @davegandy - http://fontawesome.io - @fontawesome
- *  License - http://fontawesome.io/license (Font: SIL OFL 1.1, CSS: MIT License)
- */
-/* FONT PATH
- * -------------------------- */
+
 @font-face {
   font-family: 'FontAwesome';
   src: url('fontawesome-webfont.eot?v=4.2.0');
@@ -66,9 +61,6 @@ footer {
 footer .credit {
 	font-size: .8em;
 }
-
-/* Layout */
-
 header {
 	margin-top: 10px;
 	font-size: 20px;
@@ -157,8 +149,6 @@ header img {
 		font-size: 160px;
 	}
 }
-
-/* UI component styles */
 
 .pubnub {
     width: 80px;
@@ -307,9 +297,6 @@ input[type=range]:focus::-webkit-slider-runnable-track {
 	background: linear-gradient(top, #318457, #74D29F);
 }
 
-
-/* Checkboxes as Toggle-buttons */
-
 input[type=checkbox] {
 	display: none;
 }
@@ -390,11 +377,3 @@ input[type="checkbox"]:disabled + .toggle-button {
 		font-size: 2.4em;
 	}
 }
-
-
-
-
-
-
-
-
